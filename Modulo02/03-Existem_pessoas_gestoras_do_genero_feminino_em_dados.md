@@ -41,7 +41,7 @@ Responder e gerar gráficos sobre as perguntas abaixo:
 
 1. Quantas mulheres responderam que são amarelas?<br>
   Resposta: 38<br><br>
-  ![Tabela dinâmica genêro x raça/etnia](https://github.com/user-attachments/assets/45838afd-1b59-4ad1-9d39-3fed91771043)
+  ![Tabela dinâmica: Genêro x Raça/etnia](https://github.com/user-attachments/assets/45838afd-1b59-4ad1-9d39-3fed91771043)
 
   #### Solução:
   - **Criei uma tabela dinâmica, conforme os passos abaixo:**<br>
@@ -54,11 +54,19 @@ Responder e gerar gráficos sobre as perguntas abaixo:
     II  - Em *Filtros*, adicionei a coluna **Raça/Cor/Etnia**<br>
     III - Em *Valores*, adicionei a **ID** (pois é uma coluna que tem valores únicos por pessoa), e escolhi a opção *COUNT* (contagem)
 
+  #### Gráfico:
+  ![Gráfico: Mulheres por Raça/Etnia](https://github.com/user-attachments/assets/8a52c7b2-3509-425e-9c44-b097b883e4b7)
+
+
+  #### Gráfico extra:
+  ![Gráfico extra: Raça e Gênero](https://github.com/user-attachments/assets/ee91f174-7db9-444b-99c6-3a96d649ae23)
+
+
   <br>
   
 2. Qual é o estado que mais tem gestores homens?<br>
   Resposta: São Paulo, com 286 gestores homens<br>
-  ![Tabela dinâmica: estado x gênero x cargo](https://github.com/user-attachments/assets/cf059ca0-6b22-44e5-a5b4-0c5c6f19382b)
+  ![Tabela dinâmica: Estado x Gênero x Cargo](https://github.com/user-attachments/assets/cf059ca0-6b22-44e5-a5b4-0c5c6f19382b)
 
   #### Solução:
   - **Criei uma tabela dinâmica, conforme os passos da resposta 1:**<br>
@@ -68,18 +76,30 @@ Responder e gerar gráficos sobre as perguntas abaixo:
     II  - Em *Filtros*, adicionei a coluna **Gênero** e selecionei *Masculino*<br>
     III - Adicionei outro filtro para a coluna **NOVO_NIVEL** e selecione apenas *Pessoa Gestora*
     IV  - Em *Valores*, adicionei novamente a **ID** e escolhi a opção *COUNT*
+
+  #### Gráficos:<br>
+  ![Gráfico: Gestores Homens por Estado](https://github.com/user-attachments/assets/8962b4a9-dc3f-4001-bd29-0f4d563b65d1)
+
+  #### Gráfico extra:
+  ![Gráfico extra: Pessoas Gestoras - Estado x Gênero](https://github.com/user-attachments/assets/42723be5-cd66-4424-aff0-a841555c491d)
+
+<br>
+
     
   <br>
   
 3. Qual é a média de idade?<br>
   Resposta: 31 <br><br>
-  ![Tabela Média de Idade](https://github.com/user-attachments/assets/741eeb22-6855-4379-b3c5-26e4a9a64f3c)
+  ![Tabela: Média de Idade](https://github.com/user-attachments/assets/741eeb22-6855-4379-b3c5-26e4a9a64f3c)
 
   #### Solução:
   - **Em outra aba inseri a seguinte fórmula:**<br>
     ```
     =MÉDIA(Sheet1!B:B)
     ```
+
+  #### Gráfico:
+  - Como este é um dado único, não criei um gráfico
   
   <br>
   
@@ -88,7 +108,8 @@ Responder e gerar gráficos sobre as perguntas abaixo:
   - Masculino............: 31<br>
   - Prefiro não responder: 27<br>
   - Não respondido.......: 26<br><br>
-  ![Tabela Média de Idade por Gênero](https://github.com/user-attachments/assets/d22f9fd0-faa2-4edb-ac80-d39f14c7faea)
+  ![Tabela: Média de Idade por Gênero](https://github.com/user-attachments/assets/d22f9fd0-faa2-4edb-ac80-d39f14c7faea)
+
 
   #### Solução:
   - **Na mesma aba do exercício 4 criei uma tabela com uma coluna para cada opção e inseri a seguinte fórmula:**<br>
@@ -97,10 +118,13 @@ Responder e gerar gráficos sobre as perguntas abaixo:
     ```
   - Arrastei a fórmula para as demais colunas e adaptei o parâmetro do gênero apenas
 
+  #### Gráfico:<br>
+  ![Gráfico: Média de Idade por Gênero](https://github.com/user-attachments/assets/17a33d54-d7c5-4066-8b4f-28ac18bfa9fb)
+
   <br>
   
 5. Qual é a média de idade por estado?<br><br>
-  ![Tabela Média de Idade por Estado](https://github.com/user-attachments/assets/84bc11c2-0ffa-4922-81b6-3efaf3310ead)
+  ![Tabela: Média de Idade por Estado](https://github.com/user-attachments/assets/84bc11c2-0ffa-4922-81b6-3efaf3310ead)
 
   #### Solução:
   - **Criei uma tabela dinâmica, conforme os passos da resposta 1:**<br>
@@ -109,10 +133,14 @@ Responder e gerar gráficos sobre as perguntas abaixo:
     I  - Em *Linhas*, adicionei a coluna **Estado**<br>
     II - Em *Valores*, adicionei a coluna **Idade** e escolhi a opção *AVERAGE* (média)
 
+  #### Gráfico:<br>
+  ![Gráfico: Média de Idade por Estado](https://github.com/user-attachments/assets/f06432a4-0226-46fd-9526-729533ffbb9e)
+
+
   <br>
 
   6. Qual é a média de idade por gênero por estado?<br><br>
-     ![Tabela dinâmica Média de Idade por Gênero por Estado](https://github.com/user-attachments/assets/7cc0be71-3a04-4adc-8ef4-5063d796917f)
+     ![Tabela dinâmica: Média de Idade - Gênero x Estado](https://github.com/user-attachments/assets/7cc0be71-3a04-4adc-8ef4-5063d796917f)
 
   #### Solução:
   - **Criei uma tabela dinâmica, conforme os passos da resposta 1:**<br>
@@ -121,3 +149,7 @@ Responder e gerar gráficos sobre as perguntas abaixo:
     I   - Em *Linhas*, adicionei a coluna **Estado**<br>
     II  - Em *Colunas*, adicionei a coluna **Gênero**<br>
     III - Em *Valores*, adicionei a coluna **Idade** e escolhi a opção *AVERAGE* (média)
+
+  #### Gráfico:<br>
+  ![Gráfico: Média de Idade - Gênero x Estado](https://github.com/user-attachments/assets/ff7271f6-dbbc-45a4-9143-d1ee864ecb3b)
+
