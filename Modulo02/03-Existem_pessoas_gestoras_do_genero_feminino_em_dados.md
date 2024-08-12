@@ -1,4 +1,4 @@
-# Resumo da aula
+# Existem pessoas do gênero feminino em dados?
 
 Nessa aula revisamos a tabela dinâmica e vimos o quanto ela pode ser poderosa para tabalhar com nossos dados.
 Na primeira análise que fizemos, usamos a tabela dinâmica só para agrupar informações básicas, como quantas
