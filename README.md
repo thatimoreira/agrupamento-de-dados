@@ -1,1 +1,1 @@
-# Curso 'Análise de Dados | Meus primeiros passos em python' do Programaria
+# Curso de Análise de Dados com python do Programaria
