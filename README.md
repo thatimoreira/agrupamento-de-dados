@@ -1,2 +1,1 @@
-# agrupamento-de-dados
-Atividade do curso 'Análise de Dados | Meus primeiros passos em python'
+# Curso 'Análise de Dados | Meus primeiros passos em python' do Programaria
